@@ -1,0 +1,9 @@
+What are the primitive data types that Java has?	short, int, long, decimal, double, char and boolean.
+What are the referece data types that Java has?	Strings, arrays and all other data structures like Dictionaries, queues, etc.
+What is the difference between reference and primitive data types?	Primitive data types are stored in the main memory and the bit values are saved directly into variables. Reference types on the other hand, store a pointer in the variable that points to the location in the heap which is managed by the JVM.
+How do you build a Java program? With no frameworks!	You first create your class or classes with the .java extension. You then compile the files, starting with the one that has the main method using javac nameOfClass.java and then you run it with the command java nameOfFile with no extensions.
+What should be public in a Java class?	The methods, getters and setters that the user needs to use the class.
+What should be private in a Java class?	The variables/properties to avoid .dot notation access.
+What is the difference of using the "==" operator in a primitive data type versus a reference data type?	The "==" operator checks if the value stored in the variable is equals. It will check if primitive data types are equal or not becauase their value is directly stored in the variable. Rerefence types are not directly stored in the variable so this will check if their pointer is the same or if they are pointing to the same thing.
+What are the default values of instance variables?	For numerical values and char is 0, for booleans is false and for reference types is null.
+What are the default values of local variables?	They do not have a default value, the compiler will not compile the code because they need to be initialized.
