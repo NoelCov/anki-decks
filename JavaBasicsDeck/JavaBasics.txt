@@ -7,7 +7,7 @@ What should be private in a Java class?	The variables/properties to avoid .dot n
 What is the difference of using the "==" operator in a primitive data type versus a reference data type?	The "==" operator checks if the value stored in the variable is equals. It will check if primitive data types are equal or not becauase their value is directly stored in the variable. Rerefence types are not directly stored in the variable so this will check if their pointer is the same or if they are pointing to the same thing.
 What are the default values of instance variables?	For numerical values and char is 0, for booleans is false and for reference types is null.
 What are the default values of local variables?	They do not have a default value, the compiler will not compile the code because they need to be initialized.
-What is a wrapper class and how can it be used? A wrapper class is any of the data type classes such as Character, Boolean, Integer etc. They are used to get certain information about that data type like the min and max values. It's a way to use primitive data types as objects.
-How do you explicitly cast in Java? IE double to integer?   You put the data type you want to convert into in parenthesis before the expression or data type that you want to convert. For example (int) doubleValue;.
-What is the default data type for whole numbers?    Integer.
-What is the default data type for decimal numbers and why?  Double. Because it's more precise.
+What is a wrapper class and how can it be used?	A wrapper class is any of the data type classes such as Character, Boolean, Integer etc. They are used to get certain information about that data type like the min and max values. It's a way to use primitive data types as objects.
+How do you explicitly cast in Java? IE double to integer?	You put the data type you want to convert into in parenthesis before the expression or data type that you want to convert. For example (int) doubleValue;.
+What is the default data type for whole numbers?	Integer.
+What is the default data type for decimal numbers and why?	Double. Because it's more precise.
