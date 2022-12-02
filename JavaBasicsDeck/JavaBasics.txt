@@ -11,3 +11,9 @@ What is a wrapper class and how can it be used?	A wrapper class is any of the da
 How do you explicitly cast in Java? IE double to integer?	You put the data type you want to convert into in parenthesis before the expression or data type that you want to convert. For example (int) doubleValue;.
 What is the default data type for whole numbers?	Integer.
 What is the default data type for decimal numbers and why?	Double. Because it's more precise.
+How do you overload a method?   By writing another method with the exact same name but different parameters.
+What is a statement in programming? It's a line or multiple lines of code that may or may not include any expressions. A statement gives the computer instructions on what to do.
+What is an expression in programming?   It's code that has to resolve to a literal value.
+What is a parameter?    The definition of the input the method requires to work.
+What is an argument?    The input the programmer passes to the method when they call it.
+What are the access modifiers in Java?  Public, Private, Protected, and Default.
