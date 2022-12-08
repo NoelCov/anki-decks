@@ -11,9 +11,20 @@ What is a wrapper class and how can it be used?	A wrapper class is any of the da
 How do you explicitly cast in Java? IE double to integer?	You put the data type you want to convert into in parenthesis before the expression or data type that you want to convert. For example (int) doubleValue;.
 What is the default data type for whole numbers?	Integer.
 What is the default data type for decimal numbers and why?	Double. Because it's more precise.
-How do you overload a method?   By writing another method with the exact same name and access modifiers but different parameters.
-What is a statement in programming? It's a line or multiple lines of code that may or may not include any expressions. A statement gives the computer instructions on what to do.
-What is an expression in programming?   It's code that has to resolve to a literal value.
-What is a parameter?    The definition of the input the method requires to work.
-What is an argument?    The input the programmer passes to the method when they call it.
-What are the access modifiers in Java?  Public, Private, Protected, and Default.
+How do you overload a method?	By writing another method with the exact same name and access modifiers but different parameters.
+What is a statement in programming?	It's a line or multiple lines of code that may or may not include any expressions. A statement gives the computer instructions on what to do.
+What is an expression in programming?	It's code that has to resolve to a literal value.
+What is a parameter?	The definition of the input the method requires to work.
+What is an argument?	The input the programmer passes to the method when they call it.
+What are the access modifiers in Java?	Public, Private, Protected, and Default.
+What is a record?	A record is a immutable data type that can be used to create class like objects that have automatic constructor and getter so that the programmer doesn't have to type it all.
+How do you call a parent's class method?	By using super.method.
+How do you call a parent's class constructor?	By including super() inside the child class constructor.
+How do you overload a constructor correctly?	By giving it different parameters and or different data type on the same parameters.
+How do you tell Java and other programmers that you are overloading something?	By adding the @Overriden anotation.
+What's an instance?	It is when you have an object created. For example you have a house plan, and you create one, that would be an instance.
+What does public access modifier do?	It makes it accessible by any other class and any other package.
+What does private access modifier do?	It makes it accessible by no other classes nor other packages.
+What does protected access modifier do?	It makes it accessible by classes in the same package and subclasses in other packages.
+What does none access modifier do?	It makes it accessible by classes in the same package.
+What are values accpeted by switch statement in Java?	char, byte int, short, strings and enums.
