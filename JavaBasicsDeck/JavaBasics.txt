@@ -28,3 +28,5 @@ What does private access modifier do?	It makes it accessible by no other classes
 What does protected access modifier do?	It makes it accessible by classes in the same package and subclasses in other packages.
 What does none access modifier do?	It makes it accessible by classes in the same package.
 What are values accpeted by switch statement in Java?	char, byte int, short, strings and enums.
+How do you compare a primitive value? For example 2 ints?   Using the '==' operator.
+How do you compare a string value?  Using the .equals method. 
