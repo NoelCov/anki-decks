@@ -21,12 +21,12 @@ What is a record?	A record is a immutable data type that can be used to create c
 How do you call a parent's class method?	By using super.method.
 How do you call a parent's class constructor?	By including super() inside the child class constructor.
 How do you overload a constructor correctly?	By giving it different parameters and or different data type on the same parameters.
-How do you tell Java and other programmers that you are overloading something?	By adding the @Overriden anotation.
+How do you tell Java and other programmers that you are overriding something?	By adding the @Overriden anotation.
 What's an instance?	It is when you have an object created. For example you have a house plan, and you create one, that would be an instance.
 What does public access modifier do?	It makes it accessible by any other class and any other package.
 What does private access modifier do?	It makes it accessible by no other classes nor other packages.
 What does protected access modifier do?	It makes it accessible by classes in the same package and subclasses in other packages.
 What does none access modifier do?	It makes it accessible by classes in the same package.
 What are values accpeted by switch statement in Java?	char, byte int, short, strings and enums.
-How do you compare a primitive value? For example 2 ints?   Using the '==' operator.
-How do you compare a string value?  Using the .equals method. 
+How do you compare a primitive value?For example 2 ints?	Using the '==' operator.
+How do you compare a string value?	Using the .equals method. 
