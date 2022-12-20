@@ -8,7 +8,7 @@ What is the difference of using the "==" operator in a primitive data type versu
 What are the default values of instance variables?	For numerical values and char is 0, for booleans is false and for reference types is null.
 What are the default values of local variables?	They do not have a default value, the compiler will not compile the code because they need to be initialized.
 What is a wrapper class and how can it be used?	A wrapper class is any of the data type classes such as Character, Boolean, Integer etc. They are used to get certain information about that data type like the min and max values. It's a way to use primitive data types as objects.
-How do you explicitly cast in Java? IE double to integer?	You put the data type you want to convert into in parenthesis before the expression or data type that you want to convert. For example (int) doubleValue;.
+How do you explicitly cast or perform narrowing cast in Java? IE double to integer?	You put the data type you want to convert into in parenthesis before the expression or data type that you want to convert. For example (int) doubleValue;.
 What is the default data type for whole numbers?	Integer.
 What is the default data type for decimal numbers and why?	Double. Because it's more precise.
 How do you overload a method?	By writing another method with the exact same name and access modifiers but different parameters.
@@ -30,3 +30,17 @@ What does none access modifier do?	It makes it accessible by classes in the same
 What are values accepted by switch statement in Java?	char, byte int, short, strings and enums.
 How do you compare a primitive value? For example 2 ints?	Using the '==' operator.
 How do you compare a string value?	Using the .equals method. 
+What is the equivalent of const in Java?	Final.
+How many bits are in a byte?	8bits.
+What's the data size of a byte data primitive in Java?	1 byte.
+What's the data size of a short data primitive in Java?	2 bytes.
+What's the data size of a int data primitive in Java?	4 bytes.
+What's the data size of a long data primitive in Java?	8 bytes.
+What's the data size of a float data primitive in Java?	4 bytes.
+What's the data size of a double data primitive in Java?	8 bytes.
+What's the data size of a boolean data primitive in Java?	1 bit.
+What's the data size of a char data primitive in Java?	2 bytes.
+How do you perform widening cast in Java?	Automatically using wrapper classes methods. Since the conversion won't lose any data, the compiler can perform it.
+How do you get the length of a string?	Using the length() method.
+How do you get the length of a List?	Using the size() method.
+How do you get the length of an array?	Using the length property.
