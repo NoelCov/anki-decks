@@ -30,3 +30,5 @@ What does none access modifier do?	It makes it accessible by classes in the same
 What are values accpeted by switch statement in Java?	char, byte int, short, strings and enums.
 How do you compare a primitive value? For example 2 ints?   Using the '==' operator.
 How do you compare a string value?  Using the .equals method. 
+What is the method that compares an object to another object?   equals(), which you can and should override when creating your own classes.
+What is the method that gets called when you System.out.println(obj)?   toString(), which you can and should override when creating your own classes.
