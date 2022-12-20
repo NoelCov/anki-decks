@@ -24,7 +24,7 @@ How do you overload a constructor correctly?	By giving it different parameters a
 How do you tell Java and other programmers that you are overriding something?	By adding the @Overriden anotation.
 What's an instance?	It is when you have an object created. For example you have a house plan, and you create one, that would be an instance.
 What does public access modifier do?	It makes it accessible by any other class and any other package.
-What does private access modifier do?	It makes it accessible by no other classes nor other packages.
+What does private access modifier do?	It makes it accessible only within the declared class. No other class or package has access to it.
 What does protected access modifier do?	It makes it accessible by classes in the same package and subclasses in other packages.
 What does none access modifier do?	It makes it accessible by classes in the same package.
 What are values accepted by switch statement in Java?	char, byte int, short, strings and enums.
@@ -44,3 +44,8 @@ How do you perform widening cast in Java?	Automatically using wrapper classes me
 How do you get the length of a string?	Using the length() method.
 How do you get the length of a List?	Using the size() method.
 How do you get the length of an array?	Using the length property.
+What are the available access modifiers for a Java class?	public, default. Access lets the class be accessed by any other class in the same package and any other package. Default only classes in the same package.
+What are the available access modifiers for a Java method?	public, default, private, protected. 
+What are the available non-access modifiers for a Java class and what does each one do?	Abstract and Final. Abstract makes the class that has to be inherited from to be able to be used. It cannot be created. A final class does not allow any other class to inherit it.
+What is encapsulation and how do you achieve it in Java?	Encapsulation is when you hide the details of data and don't let others access it directly. You achieve it by setting properites private and giving them public gettings and setters.
+What is the equivalent to a JS arrow function in Java?	->
