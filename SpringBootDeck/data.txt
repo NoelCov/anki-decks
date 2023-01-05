@@ -1,0 +1,5 @@
+How do you initialize a spring boot project?    There are a few ways to do it. One is to go through https://start.spring.io/ and select all your dependencies, your build tool and all of that. Another way is doing it through IntelliJ.
+How do you identify that a project is a spring boot project?    There are a few ways but the easiest one is to look for the entry file and check if it has the @SpringBootApplication annotation.
+How do you add/remove dependencies in a spring boot project?    Not sure if there are other ways but at least using Maven you go to the pom.xml (Project Object Model) and go to the <dependencies></dependencies> section.
+How do you define a controller in spring boot?  Using the @RestController
+What is the spring boot framework?  It's a framework derived from Spring that uses Spring's RAD (Rapid Application Development)
