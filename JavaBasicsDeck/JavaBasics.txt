@@ -49,3 +49,6 @@ What are the available access modifiers for a Java method?	public, default, priv
 What are the available non-access modifiers for a Java class and what does each one do?	Abstract and Final. Abstract makes the class that has to be inherited from to be able to be used. It cannot be created. A final class does not allow any other class to inherit it.
 What is encapsulation and how do you achieve it in Java?	Encapsulation is when you hide the details of data and don't let others access it directly. You achieve it by setting properites private and giving them public gettings and setters.
 What is the equivalent to a JS arrow function in Java?	->
+What are IS-A and HAS-A used for?   For inheritation. To learn if a class can be a subset of another class or if it should belong to that class as a property.
+How are object references passed as in Java?    By value. Meaning that instead of the memory location of that variable, all you're passing is a COPY of the value it holds.
+What are DTOs and what are they used for?   DTO stands for Data Transfer Object and they are used to map data between objects in a program.
