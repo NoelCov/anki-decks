@@ -16,18 +16,22 @@ What is a statement in programming?	It's a line or multiple lines of code that m
 What is an expression in programming?	It's code that has to resolve to a literal value.
 What is a parameter?	The definition of the input the method requires to work.
 What is an argument?	The input the programmer passes to the method when they call it.
-What are the access modifiers in Java?	Public, Private, Protected, and Default.
+What are the access modifiers in Java for methods and fields/properties?	Public, Private, Protected, and Default.
+What does the default access modifier for classes, methods and fields do? Makes them accessible within the same package only.
+What does the private access modifier for methods and fields do? Makes them accessible within the same class only.
+What does the public access modifier for classes, methods and fields/properties do? Makes them accessible by any other class in any other package.
+What does the protected access modifier for methods and fields/properties do? Makes them accessible within the same package or subclasses in other packages.
 What is a record?	A record is a immutable data type that can be used to create class like objects that have automatic constructor and getter so that the programmer doesn't have to type it all.
 How do you call a parent's class method?	By using super.method.
 How do you call a parent's class constructor?	By including super() inside the child class constructor.
 How do you overload a constructor correctly?	By giving it different parameters and or different data type on the same parameters.
 How do you tell Java and other programmers that you are overriding something?	By adding the @Overriden anotation.
 What's an instance?	It is when you have an object created. For example you have a house plan, and you create one, that would be an instance.
-What does public access modifier do?	It makes it accessible by any other class and any other package.
-What does private access modifier do?	It makes it accessible only within the declared class. No other class or package has access to it.
+What does public access modifier do for a property?	It makes it accessible by any other class and any other package.
+What does private access modifier do for a property?	It makes it accessible only within the declared class. No other class or package has access to it.
 What does protected access modifier do?	It makes it accessible by classes in the same package and subclasses in other packages.
 What does none access modifier do?	It makes it accessible by classes in the same package.
-What are values accepted by switch statement in Java?	char, byte int, short, strings and enums.
+What are values accepted by switch statement in Java?	char, byte, short, int, strings and enums.
 How do you compare a primitive value? For example 2 ints?	Using the '==' operator.
 How do you compare a string value?	Using the .equals method. 
 What is the equivalent of const in Java?	Final.
@@ -44,11 +48,11 @@ How do you perform widening cast in Java?	Automatically using wrapper classes me
 How do you get the length of a string?	Using the length() method.
 How do you get the length of a List?	Using the size() method.
 How do you get the length of an array?	Using the length property.
-What are the available access modifiers for a Java class?	public, default. Access lets the class be accessed by any other class in the same package and any other package. Default only classes in the same package.
-What are the available access modifiers for a Java method?	public, default, private, protected. 
-What are the available non-access modifiers for a Java class and what does each one do?	Abstract and Final. Abstract makes the class that has to be inherited from to be able to be used. It cannot be created. A final class does not allow any other class to inherit it.
+What are the available access modifiers for a Java class?	public and default. Public access lets every other class in any other package access it. Default lets only classes in the same package access it.
+What are the available non-access modifiers for a Java class and what does each one do?	Abstract and Final. Abstract makes the class unable to be created and it has to be inherited to be able to be used (like an interface). A final class does not allow any other class to inherit it.
 What is encapsulation and how do you achieve it in Java?	Encapsulation is when you hide the details of data and don't let others access it directly. You achieve it by setting properites private and giving them public gettings and setters.
 What is the equivalent to a JS arrow function in Java?	->
-What are IS-A and HAS-A used for?   For inheritation. To learn if a class can be a subset of another class or if it should belong to that class as a property.
-How are object references passed as in Java?    By value. Meaning that instead of the memory location of that variable, all you're passing is a COPY of the value it holds.
-What are DTOs and what are they used for?   DTO stands for Data Transfer Object and they are used to map data between objects in a program.
+What are IS-A and HAS-A used for?	For inheritation. To learn if a class can be a subset of another class or if it should belong to that class as a property.
+How are object references passed as in Java?	By value. Meaning that instead of the memory location of that variable, all you're passing is a COPY of the value it holds.
+What are DTOs and what are they used for?	DTO stands for Data Transfer Object and they are used to map data between objects in a program.
+What is the method used to get a subArray from an array?	Using Arrays.copyOfRange(arrayToUse, inclusiveInitialPoint, nonInclusiveEndPoint).
