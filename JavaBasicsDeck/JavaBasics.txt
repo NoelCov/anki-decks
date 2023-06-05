@@ -56,3 +56,6 @@ What are IS-A and HAS-A used for?	For inheritation. To learn if a class can be a
 How are object references passed as in Java?	By value. Meaning that instead of the memory location of that variable, all you're passing is a COPY of the value it holds.
 What are DTOs and what are they used for?	DTO stands for Data Transfer Object and they are used to map data between objects in a program.
 What is the method used to get a subArray from an array?	Using Arrays.copyOfRange(arrayToUse, inclusiveInitialPoint, nonInclusiveEndPoint).
+What is the method to get a character in a String and what do we pass to it?	charAt() and we pass the index of the character we want to get.
+How do you convert a String into a number?	Using Integer.parseInt(stringToParse);
+How do you get a substring?	Using str(your string).substring(inclusive startIdx, non-inclusive endIdx);
