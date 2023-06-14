@@ -59,3 +59,6 @@ What is the method used to get a subArray from an array?	Using Arrays.copyOfRang
 What is the method to get a character in a String and what do we pass to it?	charAt() and we pass the index of the character we want to get.
 How do you convert a String into a number?	Using Integer.parseInt(stringToParse);
 How do you get a substring?	Using str(your string).substring(inclusive startIdx, non-inclusive endIdx);
+How can you instantly exit a function/method?	Using return;
+How do you get a sublist?	Using list.subList(inclusiveStart, exclusiveEnd);
+How do you sort a collection such as List?	Using Collections.sort(collectionToSort);
