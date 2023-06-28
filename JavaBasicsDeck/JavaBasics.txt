@@ -62,3 +62,4 @@ How do you get a substring?	Using str(your string).substring(inclusive startIdx,
 How can you instantly exit a function/method?	Using return;
 How do you get a sublist?	Using list.subList(inclusiveStart, exclusiveEnd);
 How do you sort a collection such as List?	Using Collections.sort(collectionToSort);
+What is the difference between implementing an interface and extending a class?	The difference is that when you implement an interface, you have to define the behavior of the methods etc (the body). When you extend a class, you can override the methods and stuff but you don't have to, you can simply use them as they were defined by the class you're extending (unless it's an abstract class which is then, very similar to an interface).
