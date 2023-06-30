@@ -63,3 +63,6 @@ How can you instantly exit a function/method?	Using return;
 How do you get a sublist?	Using list.subList(inclusiveStart, exclusiveEnd);
 How do you sort a collection such as List?	Using Collections.sort(collectionToSort);
 What is the difference between implementing an interface and extending a class?	The difference is that when you implement an interface, you have to define the behavior of the methods etc (the body). When you extend a class, you can override the methods and stuff but you don't have to, you can simply use them as they were defined by the class you're extending (unless it's an abstract class which is then, very similar to an interface).
+What is Serialization?	Serialization is the process of taking an Object and transforming it into a type of data that can be easily transmited or sent, such as a stream of bytes.
+What is Deserialization?	Deserialization is the complete opposite of Serialization, basically you take a stream of bytes or text and trasnform it into its original object.
+What is an ObjectMapper?	An ObjectMapper at least in Java is a class provided by the Jackson library which is used to Serialize and Deserialize JSON data.
