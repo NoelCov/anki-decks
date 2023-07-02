@@ -66,3 +66,5 @@ What is the difference between implementing an interface and extending a class?	
 What is Serialization?	Serialization is the process of taking an Object and transforming it into a type of data that can be easily transmited or sent, such as a stream of bytes.
 What is Deserialization?	Deserialization is the complete opposite of Serialization, basically you take a stream of bytes or text and trasnform it into its original object.
 What is an ObjectMapper?	An ObjectMapper at least in Java is a class provided by the Jackson library which is used to Serialize and Deserialize JSON data.
+How do you get the maximum number in a collection such as an Array?	By using Collections.max(collection);
+What can you return in a method that has a X return type that is different than X?	null.
